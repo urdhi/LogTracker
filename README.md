@@ -1,4 +1,4 @@
-# LogTracker (TBC Classic) by Mylaerla-Everlook
+# LogTracker (TBC Classic) by Mylaerla-Everlook enhanced by Urdhi-Razorfen
 
 Provides the current warcraftlogs rankings for players within the game.
 Currently those are displayed for:
