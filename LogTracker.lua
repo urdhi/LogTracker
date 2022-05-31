@@ -394,11 +394,10 @@ end
 function LogTracker:SendSystemChatLine(text)
   local chatInfo = ChatTypeInfo["SYSTEM"];
   local i;
-  for i=1, 16 do
-    local chatFrame = _G["ChatFrame"..i];
-    if (chatFrame) then
-      chatFrame:AddMessage(text, chatInfo.r, chatInfo.g, chatInfo.b, chatInfo.id);
-    end
+  local chatFrame = _G["ChatFrame6"];
+
+  if (chatFrame) then
+    chatFrame:AddMessage(text, chatInfo.r, chatInfo.g, chatInfo.b, chatInfo.id);
   end
 end
 
